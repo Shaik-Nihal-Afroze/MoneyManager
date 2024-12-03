@@ -1,0 +1,114 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.name-container {
+  border: 0px;
+  width: 95vw;
+  background-color: #d7dfe9;
+  background-size: cover;
+
+  margin-left: 15px;
+  /* margin-top: 15px; */
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.paragraph {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.span {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.transactions-container {
+  border: 1px solid #cbd5e1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-: 15px;
+  /* height: 30vh; */
+}
+
+.container-title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input {
+  height: 35px;
+  width: 80vw;
+  border: 1px solid #334155;
+}
+
+.add-button {
+  height: 40px;
+  width: 75px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  background-size: cover;
+  border-width: 0px;
+}
+
+.history-container {
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  align-self: flex-start;
+}
+
+.column-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.delete-icon-column {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.transactionsHistoryList-ul {
+  margin: 0px;
+  padding: 0px;
+}

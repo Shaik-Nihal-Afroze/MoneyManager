@@ -1,0 +1,28 @@
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  align-self: flex-start;
+  height: 50px;
+}
+
+.text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 10px;
+}
+
+.delete-icon {
+  height: 30px;
+  width: 30px;
+}
+
